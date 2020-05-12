@@ -1,0 +1,16 @@
+.LogoSize{
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.DisplayFooter{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Nouveautes from './Nouveaute'
 
 class Accueil extends Component {
     constructor(props) {
@@ -7,10 +8,14 @@ class Accueil extends Component {
 
          }
     }
+
     render() { 
-        return ( 
-            <div/>
-         );
+        return (
+            <div> 
+                <div>Nouveautés</div>
+                <Nouveautes />
+            </div>
+        );
     }
 }
  
