@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 .DisplayBann{
-    padding: 30px;
+    background-image: url('../Assets/FondBan.png');
+    background-size:cover ;
+    max-height: 300px;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: nowrap;
 }
 
@@ -13,4 +18,14 @@
 .DisplayFlag2{
     max-width:30%;
     max-height:30%;
+}
+
+.TitleBann{
+    font-family: 'Courgette', cursive;
+    font-size: 70px;
+    font-weight: 1000;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: red;
+    text-decoration: underline;
+    text-decoration-color: green;
 }

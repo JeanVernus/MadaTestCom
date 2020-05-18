@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import Nouveautes from './Nouveaute'
+import Nouveautes from './Nouveaute';
+import '../CSS/Accueil.css';
 
 class Accueil extends Component {
     constructor(props) {
@@ -11,9 +12,14 @@ class Accueil extends Component {
 
     render() { 
         return (
-            <div> 
-                <div>Nouveautés</div>
+            <div className="FondAccueil"> 
+                <div className="TitleNews">Nouveautés</div>
+                <br />
+                <div className="TextPrezNew">A voir texte de présentation des nouveautés</div>
+                <br />
                 <Nouveautes />
+                <br />
+                <div className="TextPrezNew">A voir texte de présentation des nouveautés</div>
             </div>
         );
     }

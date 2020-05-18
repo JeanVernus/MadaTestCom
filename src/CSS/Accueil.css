@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.FondAccueil{
+    background-image: url("../Assets/fondAccueil.png");
+    background-size: cover;
+    border-radius: 30%
+}
+
+.TitleNews{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+}
+
+.TextPrezNew{
+    height: 200px;
+    width: 70%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}

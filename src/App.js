@@ -18,6 +18,7 @@ class App extends Component {
     return(    
       <div> 
         <Header />
+        <br />
         <Segment>
           <BrowserRouter>
             <NavLink exact to = "/" className="link" activeClassName = "current"></NavLink>
@@ -26,6 +27,7 @@ class App extends Component {
               <NavLink to = '/Articles' className="link" activeClassName = "current">Articles</NavLink>
               <NavLink to = '/Panier' className="link" activeClassName = "current">Panier</NavLink>
             </div>
+            <br />
             <Switch>
               <Route path = "/Accueil" component = {Accueil}></Route>
               <Route path = "/Articles" component = {Articles}></Route>
@@ -33,6 +35,7 @@ class App extends Component {
             </Switch>
           </BrowserRouter>
         </Segment>
+        <br /><br /><br />
         <Footer />
       </div>
     )

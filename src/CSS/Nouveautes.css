@@ -1,0 +1,23 @@
+@import "./image-gallery.css";
+
+.displayMarginResto {
+width: 100%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.ImageNews {
+    border : 4px double red
+}
+
+.LogoNew1{
+    width: 250px;
+    height: 250px;
+
+}
+
+.LogoNew2{
+    width: 250px;
+    height: 250px;
+}
